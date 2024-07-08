@@ -12,9 +12,11 @@
     text-align: center;
 }
 
-h2:target{
+h2:target::after{
     background-color: yellow;
-    padding: 2rem;
+    padding: .5rem;
     text-align: center;
-    font: 3rem;
+    font-size: 0.5rem;
+    content: "SELECTED";
+    margin-left: 5px;
 }
