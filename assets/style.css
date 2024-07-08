@@ -12,6 +12,8 @@
     text-align: center;
 }
 
+a {text-decoration: none; color: black;}
+
 h2:target::after{
     background-color: yellow;
     padding: .5rem;
@@ -19,4 +21,9 @@ h2:target::after{
     font-size: 0.5rem;
     content: "SELECTED";
     margin-left: 5px;
+}
+
+#contact-information div:hover{
+    border: 1px solid black;
+    background-color: gold;
 }
