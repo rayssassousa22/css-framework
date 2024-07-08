@@ -12,8 +12,6 @@
     text-align: center;
 }
 
-a {text-decoration: none; color: black;}
-
 h2:target::after{
     background-color: yellow;
     padding: .5rem;
@@ -26,4 +24,11 @@ h2:target::after{
 #contact-information div:hover{
     border: 1px solid black;
     background-color: gold;
+}
+
+a:visited{
+    color: rgb(107, 92, 3);
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
 }
