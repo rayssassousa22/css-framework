@@ -1,4 +1,4 @@
-ul li:nth-child(even) {
+ul li:nth-child(3n) {
     background-color: beige;
 }
 
@@ -15,9 +15,3 @@ ul li:hover{
     font-style: italic;
     border: 1px solid black;
 }
-
-ul li:nth-child(even):hover{
-    background-color: white;
-    font-style: italic;
-}
-
