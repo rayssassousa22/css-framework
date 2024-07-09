@@ -1,2 +1,23 @@
+ul li:nth-child(even) {
+    background-color: beige;
+}
 
+ul li {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+ul li:hover{
+    background-color: beige;
+    font-style: italic;
+    border: 1px solid black;
+}
+
+ul li:nth-child(even):hover{
+    background-color: white;
+    font-style: italic;
+}
 
