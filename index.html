@@ -7,48 +7,28 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <h1>Hello!</h1>
+    <form>
+        <h3>Faça sua compra: </h3>
 
-    <h2>Table of Contents:</h2>
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" value=""><br><br>
 
-    <ul>
-        <a href="#saiba-mais"><li>Saiba Mais</li></a>
-        <a href="#sobre-nos"><li>Sobre Nós</li></a>
-        <a href="#contato"><li>Contact Us</li></a>
-    </ul>
+        <label for="codigo-produto">Código Produto: </label>
+        <input type="number" min="1000" name="codigo-produto" placeholder="Somente números"><br><br>
 
-    <h2 id="saiba-mais">Saiba Mais</h2>
+        <label for="cupom">Cumpom de Desconto: </label>
+        <input type="text" pattern="[a-z]+" name="cupom" placeholder="Apenas letras minúsculas"><br><br>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nam obcaecati recusandae cum est similique natus dolores aliquid, amet, optio, perspiciatis sint accusantium at ipsum ullam aperiam vitae voluptate ipsa.</p>
+        <label for="nascimento">Data de Nascimento: </label>
+        <input type="date" name="nascimento" min="2005-09-22" max="1975-01-01"><br><br>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat aperiam fugit veniam. Dicta tempore nesciunt error aperiam at! Magni iusto iste maxime ipsa repudiandae tempore beatae fugit iure minus. Rerum!</p>
+        <label for="quantidade">Quantidade: </label>
+        <input type="number" name="quantidade" min="1" max="50"><br><br>
 
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui maiores, atque necessitatibus fugit quos placeat eos delectus eius labore saepe amet accusamus quod debitis est expedita unde aliquid blanditiis maxime!</p>
+        <input type="radio" name="checkbox">
+        <label for="checkbox">Li e aceito os termos de uso</label><br><br>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eum consequatur culpa ratione vel, mollitia temporibus. Dolores sequi quo minima, ducimus ea, labore voluptate repellendus iusto deleniti quia, ab dignissimos.</p>
-
-    <h2 id="sobre-nos">Sobre Nós</h2>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum itaque exercitationem, accusamus provident animi dolorem maiores, consectetur natus excepturi aliquid accusantium, doloremque voluptas pariatur laudantium error. Maiores aspernatur ducimus earum.</p>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsa exercitationem nostrum id quam voluptatem vero! Vel sed expedita pariatur quaerat dignissimos tempora. Cum, earum rerum veritatis error enim qui.</p>
-
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum non autem iusto mollitia. Officiis dolor obcaecati nulla quasi omnis expedita maxime, mollitia tempore cupiditate hic facilis. Commodi numquam vitae cumque.</p>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium praesentium quis et qui natus dolor, vero, ratione voluptatum perspiciatis beatae mollitia, nostrum neque dolores? Explicabo similique temporibus corrupti natus omnis.</p>
-
-    <h2 id="contato">Contact Us</h2>
-
-    <section id="contact-information">
-        <div>
-            <h3>Email: </h3>
-            <a href="mailto:ola@ola.com?subject=Assunto"><p>ola@ola.com</p></a>
-        </div>
-
-        <div>
-            <h3>Telefone: </h3>
-            <a href="#"><p>(28)99900-0000</p></a>
-        </div>
-    </section>
+        <button type="submit">Comprar</button>
+    </form>
 </body>
 </html>
