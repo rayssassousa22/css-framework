@@ -11,7 +11,9 @@
         <h3>Faça sua compra: </h3>
 
         <label for="email">E-mail: </label>
-        <input type="email" name="email" value=""><br><br>
+        <input type="email" name="email" value="" required>
+        <span class="error">Email inválido</span>
+        <br><br>
 
         <label for="codigo-produto">Código Produto: </label>
         <input type="number" min="1000" name="codigo-produto" placeholder="Somente números"><br><br>
