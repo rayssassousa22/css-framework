@@ -1,4 +1,4 @@
-ul li:nth-last-child(-n+3) { /*quando colocar -n indica que a contagem começará de baixo pra cima*/
+ul li:not(:first-child){ /*quando colocar -n indica que a contagem começará de baixo pra cima*/
     background-color: beige;
 }
 
@@ -8,10 +8,4 @@ ul li {
     padding: 5px;
     font-family: sans-serif;
     font-size: 1rem;
-}
-
-ul li:hover{
-    background-color: beige;
-    font-style: italic;
-    border: 1px solid black;
 }
