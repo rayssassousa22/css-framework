@@ -13,6 +13,5 @@ div{
 }
 
 div:hover{
-    transform: scale(2, 2) rotate(40deg);
-    /*funciona como scaleX ou scaleY também*/
+    transform: skew(40deg);
 }
