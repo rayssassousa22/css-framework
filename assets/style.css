@@ -3,14 +3,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    perspective: 300px;
+    perspective: 150px;
     perspective-origin: center;
 }
 
 #filho{
     background: linear-gradient(deeppink, blue);
     border-radius: 10px;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     transform: rotateX(20deg);
 }
