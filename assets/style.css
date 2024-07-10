@@ -3,7 +3,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    perspective: 500px;
+    perspective: 300px;
+    perspective-origin: left top;
 }
 
 #filho{
@@ -11,5 +12,5 @@ body{
     border-radius: 10px;
     width: 200px;
     height: 200px;
-    transform: rotateX(30deg);
+    transform: rotateX(20deg);
 }
