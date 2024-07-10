@@ -13,5 +13,6 @@ div{
 }
 
 div:hover{
-    transform: rotate(40deg);
+    transform: rotateY(40deg);
+    /*positivo faz andar no sentido horário e negativo no sentido anti-horário*/
 }
