@@ -3,15 +3,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    perspective: 100px;
 }
 
-div{
+#filho{
     background: linear-gradient(deeppink, blue);
     border-radius: 10px;
     width: 200px;
     height: 200px;
-}
-
-div:hover{
-    transform: matrix(1, 0, 0, 1, 200, -100) rotate(30deg);
+    transform: rotateY(30deg);
 }
