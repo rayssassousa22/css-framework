@@ -3,21 +3,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    perspective: 200px;
-    perspective-origin: center;
 }
 
 #filho{
     background: linear-gradient(deeppink, blue);
     border-radius: 10px;
     width: 300px;
-    height: 300px;
-    transform: rotateX(60deg) /*translateZ(30px) faz com que o elemento fique mais perto (valor maior) ou menor (valores menores)*/;
-    position: relative;
-}
-
-#filho:hover{
-    transform: rotateX(60deg);
+    height: 300px; /*translateZ(30px) faz com que o elemento fique mais perto (valor maior) ou menor (valores menores)*/;
+    transition: 3s;
+    transform: rotate(360deg);
 }
 
 #filho h1{
