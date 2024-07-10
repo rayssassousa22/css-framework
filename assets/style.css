@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     perspective: 300px;
-    perspective-origin: left top;
+    perspective-origin: center;
 }
 
 #filho{
