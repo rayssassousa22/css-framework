@@ -14,4 +14,5 @@ div{
 
 div:hover{
     transform: matrix(1.2, 0.2, 0, 1.2, 100, -100);
+    /*obs.: o skew aqui funciona como fração 20deg == 0.2*/
 }
