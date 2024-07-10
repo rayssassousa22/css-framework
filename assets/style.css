@@ -17,7 +17,7 @@ body{
 }
 
 #filho:hover{
-    transform: scaleZ(2) rotateX(60deg);
+    transform: rotateX(60deg);
 }
 
 #filho h1{
