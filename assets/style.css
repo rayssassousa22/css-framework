@@ -13,6 +13,6 @@ div{
 }
 
 div:hover{
-    transform: skew(40deg);
+    transform: skew(20deg, 10deg);
     /*também usa-se o skewX ou o skewY*/
 }
