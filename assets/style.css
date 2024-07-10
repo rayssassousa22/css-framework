@@ -12,7 +12,7 @@ body{
     border-radius: 10px;
     width: 300px;
     height: 300px;
-    transform: rotateX(60deg);
+    transform: rotateX(60deg) /*translateZ(30px) faz com que o elemento fique mais perto (valor maior) ou menor (valores menores)*/;
     position: relative;
 }
 
