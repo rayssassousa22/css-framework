@@ -26,6 +26,6 @@ body{
 }
 
 #filho h1:hover{
-    color: lime;
-    background-color: beige;
+    color: blue;
+    background-color: paleturquoise;
 }
