@@ -21,6 +21,7 @@ button{
 button:hover{
     animation-play-state: paused;
     cursor: pointer;
+    filter: brightness(0.8);
 }
 
 @keyframes botao{
