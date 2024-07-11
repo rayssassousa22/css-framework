@@ -9,18 +9,30 @@ body{
 img{
     width: 300px;
     height: 300px;
-    animation: launch 5s linear infinite;
+    animation: launch 10s linear infinite;
 }
 
 @keyframes launch{
     0%{
         transform: translateY(0);
     }
-    25%{
+    15%{
         transform: translateY(60vh);
     }
-    50%{
+    30%{
         transform: translateY(-60vh);
+    }
+    45%{
+        transform: translateY(0) rotate(60deg);
+    }
+    60%{
+        transform: translate(100vh, -60vh);
+    }
+    75%{
+        transform: rotate(-60deg) translate(0, 60vh);
+    }
+    85%{
+        transform: rotate(60deg) translate(-100vh, 1vh);
     }
     100%{
         transform: translateY(0);
