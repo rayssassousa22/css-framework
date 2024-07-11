@@ -8,7 +8,14 @@ body{
     background: linear-gradient(-45deg, blue, deeppink);
     font-family: quicksand, sans-serif;
     background-size: 400% 400%;
-    animation: gradiente infinite 5s ease-in-out;
+    animation: gradiente infinite 5s ease-in-out alternate;
+}
+
+h1{
+    font-family: pacifico, cursive;
+    font-size: 5rem;
+    margin: 0;
+    background: linear-gradient(0deg, transparent, black);
 }
 
 @keyframes gradiente {
