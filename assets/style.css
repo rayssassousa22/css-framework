@@ -15,6 +15,16 @@ body{
     height: 500px; /*translateZ(30px) faz com que o elemento fique mais perto (valor maior) ou menor (valores menores)*/;
 }
 
+button{
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
 .filho h1{
     position: absolute;
     top: 50%;
