@@ -17,3 +17,18 @@ div{
 img{
     height: 100%;
 }
+
+div:hover{
+    animation: hoverdiv 2s infinite linear;
+}
+
+@keyframes hoverdiv{
+    50%{
+        gap: 1rem;
+        transform: scale(.9);
+    }
+    100%{
+        gap: 1rem;
+        transform: scale(.9);
+    }
+}
