@@ -13,7 +13,7 @@ div{
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    animation: three-d infinite 10s ease-in-out;
+    animation: three-d infinite 10s ease-in-out alternate;
 }
 
 @keyframes three-d{
@@ -29,7 +29,10 @@ div{
     75%{
         transform: rotateY(180deg) rotate(60deg) translateZ(100px);
     }
-    100%{
+    95%{
         transform: rotateY(360deg) rotate(60deg) translateZ(100px);
+    }
+    100%{
+        transform: rotate(60deg) translateZ(100px);
     }
 }
