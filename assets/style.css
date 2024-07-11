@@ -1,40 +1,43 @@
 body{
     height: 100vh;
     display: flex;
+    color: white;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(lightblue, deeppink);
+    flex-direction: column;
+    background: linear-gradient(-45deg, blue, deeppink);
+    font-family: quicksand, sans-serif;
+    background-size: 400% 400%;
+    animation: gradiente infinite 5s ease-in-out;
 }
 
-img{
-    width: 300px;
-    height: 300px;
-    animation: launch 10s linear infinite;
-}
-
-@keyframes launch{
+@keyframes gradiente {
     0%{
-        transform: translateY(0);
+        background-position: 0% 50%;
     }
-    15%{
-        transform: translateY(60vh);
+    20%{
+        background-position: 100% 50%;
     }
-    30%{
-        transform: translateY(-60vh);
-    }
-    45%{
-        transform: translateY(0) rotate(60deg);
+    40%{
+        background-position: 100% 100%;
     }
     60%{
-        transform: translate(100vh, -60vh);
+        background-position: 100% 50%;
     }
-    75%{
-        transform: rotate(-60deg) translate(0, 60vh);
-    }
-    85%{
-        transform: rotate(60deg) translate(-100vh, 1vh);
+    80%{
+        background-position: 0% 100%;
     }
     100%{
-        transform: translateY(0);
+        background-position: contain;
     }
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url('/assets/fonts/Quicksand-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: pacifico;
+    src: url('/assets/fonts/Pacifico-Regular.ttf');
 }
