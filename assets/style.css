@@ -15,7 +15,16 @@ h1{
     font-family: pacifico, cursive;
     font-size: 5rem;
     margin: 0;
-    background: linear-gradient(0deg, transparent, black);
+    background: linear-gradient(0deg, transparent, white);
+    background-clip: text;
+    position: relative;
+    color: transparent;
+    top: 60px;
+}
+
+h2{
+    font-size: 2rem;
+    margin: 0;
 }
 
 @keyframes gradiente {
