@@ -18,6 +18,10 @@ button{
     animation: botao 1.5s linear infinite;
 }
 
+button:hover{
+    animation-play-state: paused;
+}
+
 @keyframes botao{
     0%{
         transform: rotate(10deg);
