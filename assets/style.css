@@ -9,7 +9,6 @@ body{
 }
 
 .filho{
-    background: linear-gradient(deeppink, blue);
     border-radius: 50%;
     width: 500px;
     height: 500px; /*translateZ(30px) faz com que o elemento fique mais perto (valor maior) ou menor (valores menores)*/;
@@ -18,10 +17,12 @@ body{
 
 .div-01{
     transform: rotateY(60deg);
+    background: linear-gradient(deeppink, blue);
 }
 
 .div-02{
     transform: rotateY(-60deg);
+    background: linear-gradient(blue, deeppink);
 }
 
 .filho h1{
