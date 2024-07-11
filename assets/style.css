@@ -14,16 +14,20 @@ body{
 }
 
 .ponto:nth-child(1){
-    animation: download 3s infinite ease-in 1s alternate;
+    animation: download 1s infinite ease-in alternate;
 }
 
 .ponto:nth-child(2){
-    animation: download 3s infinite linear 3s alternate;
+    animation: download 1s infinite ease-in .3s alternate;
+
 }
 
 .ponto:nth-child(3){
-    animation: download 3s infinite linear 6s alternate;
+    animation: download 1s infinite ease-in .6s alternate;
+
 }
+
+/*como colocar um de cada vez logo acima*/
 
 @keyframes download{
     0%{
