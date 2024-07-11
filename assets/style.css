@@ -10,6 +10,8 @@ div{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 300px);
+    margin: 0;
+    gap: 0;
 }
 
 img{
