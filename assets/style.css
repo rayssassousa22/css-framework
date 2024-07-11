@@ -3,29 +3,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    perspective: 700px;
-    transform-style: preserve-3d;
-    perspective-origin: top;
 }
 
 .filho{
-    border-radius: 50%;
-    width: 500px;
-    height: 500px; /*translateZ(30px) faz com que o elemento fique mais perto (valor maior) ou menor (valores menores)*/;
-    position: absolute;
-}
-
-.div-01{
-    transform: rotateY(60deg);
+    border-radius: 10px;
     background: linear-gradient(deeppink, blue);
-}
-
-.div-02{
-    transform: rotateY(-60deg);
-    background: linear-gradient(blue, deeppink);
+    width: 500px;
+    position: relative;
+    height: 500px; /*translateZ(30px) faz com que o elemento fique mais perto (valor maior) ou menor (valores menores)*/;
 }
 
 .filho h1{
+    position: absolute;
+    top: 50%;
     text-align: center;
     color: white;
     font-size: 2.5rem;
