@@ -5,55 +5,31 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(-45deg, blue, deeppink);
-    font-family: quicksand, sans-serif;
-    background-size: 400% 400%;
-    animation: gradiente infinite 5s ease-in-out alternate;
+    perspective: 300px;
 }
 
-h1{
-    font-family: pacifico, cursive;
-    font-size: 5rem;
-    margin: 0;
-    background: linear-gradient(0deg, transparent, white);
-    background-clip: text;
-    position: relative;
-    color: transparent;
-    top: 60px;
+div{
+    background: linear-gradient(BLUE, deeppink);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    animation: three-d infinite 10s ease-in-out;
 }
 
-h2{
-    font-size: 2rem;
-    margin: 0;
-}
-
-@keyframes gradiente {
+@keyframes three-d{
     0%{
-        background-position: 0% 50%;
+        transform: rotateY(30deg) rotate(60deg) translateZ(100px);
     }
-    20%{
-        background-position: 100% 50%;
+    25%{
+        transform: rotateY(60deg) rotate(60deg) translateZ(100px);
     }
-    40%{
-        background-position: 100% 100%;
+    50%{
+        transform: rotateY(120deg) rotate(60deg) translateZ(100px);
     }
-    60%{
-        background-position: 100% 50%;
-    }
-    80%{
-        background-position: 0% 100%;
+    75%{
+        transform: rotateY(180deg) rotate(60deg) translateZ(100px);
     }
     100%{
-        background-position: contain;
+        transform: rotateY(360deg) rotate(60deg) translateZ(100px);
     }
-}
-
-@font-face {
-    font-family: quicksand;
-    src: url('/assets/fonts/Quicksand-VariableFont_wght.ttf');
-}
-
-@font-face {
-    font-family: pacifico;
-    src: url('/assets/fonts/Pacifico-Regular.ttf');
 }
