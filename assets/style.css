@@ -27,3 +27,50 @@ p{
     font-family: pacifico;
     src: url(/assets/fonts/Pacifico-Regular.ttf);
 }
+
+/*BEM (Block, Element and Modifier) - é um tipo de convenção baseado a programação orientada a objetos
+
+- Bloco 
+    Entende-se como uma identidade independente/base
+    Normalmente vista como elemento pai 
+    Escrita como (.btn)
+
+-Elemento
+    Elemento filho do bloco
+    Escrita como (.btn_manchete)
+
+-Modificador
+    Modificam a estrutura de um bloco ou elemento
+    Escrita como (.btn_manchete--light, .btn_manchete--dark);*/
+
+/*SMACSS (Scalable abd Modular Architeture for CSS) normalmente usado em grandes sites
+
+Convenção bastante utilizada pra gerenciar padrões de guias de estilos em grandes sites que tem grande demanda*/
+
+/*OOCSS (Object Oriented CSS)
+
+Pega as propriedades mais usadas ao longo de um CSS, as estruturas (width, height, padding) e os designs (border, color, font, background) e as referencia ao longo do CSS quando 
+usam as mesmas propriedades
+ANTES:
+
+box1{
+color: white;
+...
+}
+
+box2{
+color: white;
+...
+}
+DEPOIS:
+
+box-border{
+color:white;
+}
+
+box1{
+...
+}
+box2{
+...
+}*/
