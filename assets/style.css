@@ -1,7 +1,12 @@
+:root{
+    --bg-color-dark: rgb(59, 58, 58);
+    --bg-color-light: white;
+}
+
 body{
     height: 100vh;
     color: black;
-    background-color: rgb(59, 58, 58);
+    background-color: var(--bg-color-light);
     font-size: 3rem;
     font-family: quicksand;
     text-align: center;
@@ -12,7 +17,6 @@ body{
 }
 
 p{
-    color: white;
     font-weight: 900;
     text-transform: lowercase;
     font-family: pacifico;
