@@ -8,6 +8,14 @@ header{
     width: 150px;
 }
 
+header .btn{
+    --bs-btn-bg: #148754;
+    --bs-border-color: #198754;
+    --bs-btn-border-color: #146C43;
+    --bs-btn-hover-bg: #146C43;
+    --bs-btn-hover-border-color: #148754;
+    --bs-btn-active-bg: #03311c;
+}
 /*BEM (Block, Element and Modifier) - é um tipo de convenção baseado a programação orientada a objetos
 
 - Bloco 
