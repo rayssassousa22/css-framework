@@ -1,6 +1,7 @@
 header{
     display: flex;
     justify-content: space-between;
+    background-color:aliceblue;
 }
 
 /*BEM (Block, Element and Modifier) - é um tipo de convenção baseado a programação orientada a objetos
