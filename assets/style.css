@@ -1,31 +1,6 @@
-:root{
-    --bg-color-dark: rgb(59, 58, 58);
-    --bg-color-light: white;
-}
-
-body{
-    height: 100vh;
-    color: black;
-    background-color: var(--bg-color-light);
-    font-size: 3rem;
-    font-family: quicksand;
-    text-align: center;
-}
-@font-face {
-    font-family: quicksand;
-    src: url(/assets/fonts/Quicksand-VariableFont_wght.ttf);
-}
-
-p{
-    font-weight: 900;
-    text-transform: lowercase;
-    font-family: pacifico;
-    font-size: 5rem;
-}
-
-@font-face {
-    font-family: pacifico;
-    src: url(/assets/fonts/Pacifico-Regular.ttf);
+header{
+    display: flex;
+    justify-content: space-between;
 }
 
 /*BEM (Block, Element and Modifier) - é um tipo de convenção baseado a programação orientada a objetos
