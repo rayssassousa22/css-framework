@@ -22,6 +22,10 @@ main{
     text-align: center;
 }
 
+section{
+   scroll-margin-top: 10rem; 
+}
+
 .carousel-item{
     height: 500px;
 }
