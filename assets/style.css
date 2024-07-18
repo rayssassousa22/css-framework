@@ -52,6 +52,24 @@ header .btn{
     height: 100%;
 }
 
+#about .card-subtitle{
+    font-size: .825rem;
+}
+
+#about .card-title{
+    font-size: 1.1rem;
+}
+
+#about .card-body{
+    text-align: left;
+    font-style:normal;
+    font-weight: normal;
+}
+
+#about{
+    margin-top: 4rem;
+}
+
 /*BEM (Block, Element and Modifier) - é um tipo de convenção baseado a programação orientada a objetos
 
 - Bloco 
