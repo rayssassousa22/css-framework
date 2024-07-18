@@ -109,6 +109,7 @@ main .btn{
     --bs-btn-padding-y: 1rem;
     font-size: 1.5rem;
     margin-bottom: 3rem;
+    font-weight: bold;
 }
 
 main .btn-primary:hover{
@@ -116,10 +117,11 @@ main .btn-primary:hover{
 }
 
 #googleMaps .modal-footer .btn{
-    --bs-btn-bg: rgb(0, 153, 255);
+    --bs-btn-bg: #022c19;
     --bs-btn-padding-x: 0.5rem;
     --bs-btn-padding-y: 0.5rem;
     font-size: 1rem;
+    font-weight: normal;
 }
 /*BEM (Block, Element and Modifier) - é um tipo de convenção baseado a programação orientada a objetos
 
