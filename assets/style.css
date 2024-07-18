@@ -51,9 +51,9 @@ main{
     color: rgb(138, 136, 136);
 }
 
-.col-md-4 img {
-    width: 100%;
-    height: 100%;
+#about .valores img{
+    height: 300px;
+    object-fit: cover;
 }
 
 #about .card-subtitle{
