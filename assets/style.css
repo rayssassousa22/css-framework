@@ -123,6 +123,10 @@ main .btn-primary:hover{
     font-size: 1rem;
     font-weight: normal;
 }
+
+.text-center{
+    margin: 0;
+}
 /*BEM (Block, Element and Modifier) - é um tipo de convenção baseado a programação orientada a objetos
 
 - Bloco 
