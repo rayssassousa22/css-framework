@@ -17,6 +17,17 @@ header .btn{
     --bs-btn-active-bg: #03311c;
 }
 
+.carousel-item{
+    height: 500px;
+    background-color: rgb(245, 225, 199);
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit:cover;
+    object-position: center; /*faz a imagem não distorcer*/
+}
+
 /*BEM (Block, Element and Modifier) - é um tipo de convenção baseado a programação orientada a objetos
 
 - Bloco 
