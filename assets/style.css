@@ -40,6 +40,13 @@ header .btn{
     text-shadow: 5px 5px 35px black;
 }
 
+.text-center{
+    margin: 3rem auto;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(138, 136, 136);
+}
+
 /*BEM (Block, Element and Modifier) - é um tipo de convenção baseado a programação orientada a objetos
 
 - Bloco 
