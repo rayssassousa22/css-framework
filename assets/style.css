@@ -90,7 +90,26 @@ main{
     color: black;
 }
 
+#catalog .card{
+    margin: 1rem auto;
+}
 
+#catalog .card img {
+    height: 18rem;
+    width: ;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+#catalog .card-body{
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+}
+
+#catalog #products{
+    display: flex;
+}
 /*BEM (Block, Element and Modifier) - é um tipo de convenção baseado a programação orientada a objetos
 
 - Bloco 
