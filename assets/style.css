@@ -19,13 +19,25 @@ header .btn{
 
 .carousel-item{
     height: 500px;
-    background-color: rgb(245, 225, 199);
 }
 
 .carousel-item img{
     height: 100%;
     object-fit:cover;
     object-position: center; /*faz a imagem não distorcer*/
+}
+
+.carousel-item::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+    position: absolute; /*fez ficar por cima da imagem*/
+}
+
+.carousel-caption h5{
+    font-size: 1.5rem;
+    text-shadow: 5px 5px 35px black;
 }
 
 /*BEM (Block, Element and Modifier) - é um tipo de convenção baseado a programação orientada a objetos
