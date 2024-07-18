@@ -129,48 +129,23 @@
       </section>
 
       <!--Adicionando um catálogo-->
-      <section id="catalog">
-        <div class="card text-center">
-          <div class="card-header">
-            <ul class="nav nav-tabs card-header-tabs">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Expressos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Capuccinos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Gelados</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Especiais</a>
-              </li>
-            </ul>
-          </div>
-          <div class="card-body">
-            <!--Adicionando os cards do catálogo-->
-            <div id="products">
-              <div class="card" style="width: 18rem;">
-                <img src="assets/images/lex-sirikiat-ymtPhYNK49A-unsplash.jpg" class="card-img-top" alt="Café Latte">
-                <div class="card-body">
-                  <p class="card-text">R$20.00</p>
-                </div>
-              </div>
-  
-              <div class="card" style="width: 18rem;">
-                <img src="assets/images/mayur-op3-8qlNq-o-unsplash.jpg" class="card-img-top" alt="Café Latte">
-                <div class="card-body">
-                  <p class="card-text">R$20.00</p>
-                </div>
-              </div>
-  
-              <div class="card" style="width: 18rem;">
-                <img src="assets/images/yanghong-yu-olBR2028Nis-unsplash.jpg" class="card-img-top" alt="Café Latte">
-                <div class="card-body">
-                  <p class="card-text">R$20.00</p>
-                </div>
-              </div>
+      <section id="catalog" class="container">
+        <div class="catalog-header">
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="expressos-tab" data-bs-toggle="tab" data-bs-target="#expressos" type="button" role="tab" aria-controls="expressos" aria-selected="true">Expressos</button>
+              <button class="nav-link" id="capuccinos-tab" data-bs-toggle="tab" data-bs-target="#capuccinos" type="button" role="tab" aria-controls="capuccinos" aria-selected="false">Capuccinos</button>
+              <button class="nav-link" id="gelados-tab" data-bs-toggle="tab" data-bs-target="#gelados" type="button" role="tab" aria-controls="gelados" aria-selected="false">Gelados</button>
+              <button class="nav-link" id="especiais-tab" data-bs-toggle="tab" data-bs-target="#especiais" type="button" role="tab" aria-controls="especiais" aria-selected="false" >Especiais</button>
             </div>
+          </nav>
+          <!--Conteúdo de cada aba-->
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
           </div>
         </div>
       </section>
