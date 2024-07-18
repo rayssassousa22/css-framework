@@ -19,6 +19,7 @@ header .btn{
 
 main{
     margin-top: 4rem;
+    text-align: center;
 }
 
 .carousel-item{
@@ -100,6 +101,14 @@ main{
     height: 300px;
     object-fit: cover;
     object-position: center;
+}
+
+main .btn{
+    --bs-btn-bg: #148754;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-padding-y: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
 }
 /*BEM (Block, Element and Modifier) - é um tipo de convenção baseado a programação orientada a objetos
 
