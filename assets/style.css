@@ -127,6 +127,16 @@ main .btn-primary:hover{
 .text-center{
     margin: 0;
 }
+
+footer .footer-text, footer p{
+    margin: 0;
+    font-style: normal;
+}
+
+footer .footer-text{
+    margin-top: 1rem;
+    font-weight: bold;
+}
 /*BEM (Block, Element and Modifier) - é um tipo de convenção baseado a programação orientada a objetos
 
 - Bloco 
