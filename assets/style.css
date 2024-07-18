@@ -17,6 +17,10 @@ header .btn{
     --bs-btn-active-bg: #03311c;
 }
 
+main{
+    margin-top: 4rem;
+}
+
 .carousel-item{
     height: 500px;
 }
